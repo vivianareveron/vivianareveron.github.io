@@ -1,0 +1,262 @@
+/****Mobile****/
+
+@media screen and (min-width: 1px){
+
+#extramenu {
+
+    display: none;
+
+}
+    
+
+ 
+
+/****Tablets****/
+
+@media screen and (min-width: 768px){
+
+
+    
+     
+}
+/****Computers****/
+
+@media screen and (min-width: 769px) {
+
+ 
+    
+    
+/**** header ****/
+
+header {
+    padding: 0 30px 0 30px;
+    overflow: auto;
+}   
+    
+#logo {
+    width: 30%;
+    max-width: 250px;
+    margin-top: 0px;
+    margin-right: 20px;
+    padding-top: 10px;    
+}
+
+#logo img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    }
+    
+
+nav {
+    width: 50%;
+    text-align: center;
+    margin: 0 25% 0 25%;
+    position: absolute;
+    
+}
+    
+nav ul {
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+    margin: 0;
+    
+}    
+
+    
+nav li a {
+    display: inline-block;
+    padding: 32px 10px 10px 10px;
+    margin: 0;
+   
+}    
+
+.selected  {
+    background-color: #fff764;
+    padding: 32px 10px 10px 10px;
+    color: #666666;
+    margin: 0;
+}
+
+
+.selected a {
+    background-color: #fff764;
+    padding: 0px 10px 10px 10px;
+    margin: 0;
+}
+
+nav a:hover { 
+    background-color: #ccf0fe;
+    padding: 32px 10px 10px 10px;
+    margin: 0;
+    
+}
+   /* Links on Help page  */
+    a.highlight:hover {
+    color: #ff0000; 
+    padding: 0;
+}
+   
+#extramenu  {
+    display: inline-block;
+    float: right;
+    text-align: center;
+  
+}
+    
+
+#extramenu li {
+    margin-top: 5%;
+    margin-right: 10px;
+    
+    }
+    
+    
+    
+
+/***** Main****/ 
+ 
+main {
+    clear: both;
+    padding: 0;
+    margin: 10px 10% 0 10%;
+    overflow: auto;
+}
+
+#slider {
+    clear: both;
+    background-color: #ccf0fe;
+    margin: 10px 10% 10px 10%;
+    text-align: center;
+    width: 70%; 
+    padding: 1% 5% 1% 5%;
+   
+}    
+
+#top {
+ 
+    
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+    
+}
+
+#top h2 {
+    font-size: 150%;
+    margin-bottom: 0;
+
+}
+    
+
+
+#middle {
+    float: left;
+    width: 41%;
+    padding: 1% 0 2% 0;
+    margin: 1% 1% 1% 8%;
+    height: 150px;
+}
+    
+  
+#bottom {
+    float: right;
+    width: 41%;
+    font-size: 120%;
+    line-height: 120%;
+    padding: 1% 0 2% 0;
+    margin: 1% 8% 1% 1%;
+    height: 150px;
+}
+
+#bottom h1 {
+    padding-top: 5%;
+
+}
+    
+ /* Vote table */
+    
+    tr {
+    display: inline-block;
+}
+table {
+    margin-right: 20%;
+    }   
+    
+/***** Footer *****/
+    
+footer {
+    clear: both;
+}
+
+}
+    
+    
+/****Extra Large****/
+
+@media screen and (min-width: 1200px) {
+    
+
+/**** header ****/
+    
+header { 
+    margin-left: 15%;
+    margin-right: 15%;    
+}
+
+nav {
+    width: 50%;
+    text-align: center;
+    margin: 0 10% 0 10%;
+    position: absolute;
+}
+
+#extramenu li {
+    margin-right: 20px;
+    }
+    
+    
+/***** Main****/     
+  
+main {
+margin-left: 20%;
+margin-right: 20%
+}
+    
+#slider {
+    clear: both;
+    background-color: #ccf0fe;
+    margin: 10px 10% 10px 10%;
+    text-align: center;
+    width: 70%; 
+    padding: 1% 5% 1% 5%;
+}   
+
+#top {
+    width: 100%;                                      
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+#top h2 {
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+    /* Vote table */
+    
+table {
+    margin-right: 40%;
+    }
+
+}

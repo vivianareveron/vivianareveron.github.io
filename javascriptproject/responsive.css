@@ -1,0 +1,149 @@
+/*Note: the program looks better at +1200px, I just did a simple adaptation for smaller screens */
+/****Small****/
+
+@media screen and (max-width: 479px){
+
+
+/* General table */
+
+h1 {
+
+    font-size: 1em;
+}
+    
+table {
+    text-align: center;
+    width: 315px;
+    height: 210px; 
+    padding: 0 0 0 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+tr{
+    margin:0 0 0 0;
+    padding:0;    
+
+}
+
+td {
+    width: 106px;
+    height: 70px; 
+    padding: 0;
+    margin: 0;
+}
+
+     
+#topLeft {
+    background-size: 315px 210px; 
+}
+
+#topCenter {
+     background-size: 315px 210px;
+}
+
+#topRight {
+    background-size: 315px 210px;
+}
+
+#centerLeft {
+     background-size:  315px 210px; 
+}
+
+#centerCenter {
+     background-size:  315px 210px; 
+}
+
+#centerRight {
+   background-size:  315px 210px;  
+}
+
+#bottomLeft {
+     background-size:  315px 210px; 
+}
+
+#bottomCenter {
+     background-size:  315px 210px; 
+}
+
+#bottomRight {
+    background-size:  315px 210px; 
+}
+
+}
+
+/****Medium****/
+
+@media screen and (min-width: 480px) and (max-width: 1200px){
+
+    
+h1  {
+font-size: 1.2em;
+}
+
+/* General table */
+
+    
+table {
+    text-align: center;
+    width: 473px;
+    height: 316px;
+    padding: 0 0 1px 0;
+    border-collapse: collapse;
+}
+
+
+tr{
+    margin:0 0 0 1px;
+    padding:0;    
+
+}
+
+td {
+    width: 175px;
+    height: 105px; 
+    padding: 0;
+    margin: 0;
+}
+
+     
+#topLeft {
+    background-size: 473px 316px;
+}
+
+#topCenter {
+     background-size: 473px 316px;
+}
+
+#topRight {
+    background-size: 473px 316px;
+}
+
+#centerLeft {
+     background-size: 473px 316px;
+}
+
+#centerCenter {
+     background-size: 473px 316px;
+}
+
+#centerRight {
+   background-size: 473px 316px;
+}
+
+#bottomLeft {
+     background-size: 473px 316px;
+}
+
+#bottomCenter {
+     background-size: 473px 316px;
+}
+
+#bottomRight {
+    background-size: 473px 316px;
+}
+
+}
+

@@ -1,0 +1,164 @@
+body{
+    
+}
+
+h1 {
+color: #98ada3;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.5em;
+margin: 0.2em 0;
+}
+
+p {
+color: #98ada3;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 0.8em;
+
+}
+
+h2{
+color: #98ada3;
+font-family: 'Pacifico', cursive;
+font-size: 2em;
+margin: 0 0;    
+}
+
+header{
+    text-align: center;
+}
+
+/* General table */
+
+table {
+    text-align: center;
+    width: 956px;
+    height: 632px;
+    padding: 0 0 2px 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+tr{
+    margin:0 0 0 1px;
+    padding:0;    
+
+}
+
+td {
+    width: 315px;
+    height: 210px; 
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+
+}
+/* Properties for each cell, an initial color and 
+background positions so they display the right part of the picture */
+
+#topLeft {
+    background-color: #688e7c;
+    background-position: left top;
+
+}
+
+#topCenter {
+    background-color: #dddcd7;
+    background-position: center top;
+}
+
+#topRight {
+    background-color: #77698b;
+    background-position: right top;
+}
+
+#centerLeft {
+    background-color: #f9f6DA;
+    background-position: left center;
+}
+
+#centerCenter {
+    background-color:#eeeee9 ;
+    background-position: center center;
+}
+
+#centerRight {
+    background-color: #98ada3;
+    background-position: right center;
+}
+
+#bottomLeft {
+    background-color: #d9d8dc;
+    background-position: left bottom;
+}
+
+#bottomCenter {
+    background-color: #9e96a9 ;
+    background-position: center bottom;
+}
+
+#bottomRight {
+    background-color: #d9dedb;
+    background-position: right bottom;
+}
+
+/*  Classes with different pictures to be used after the event listeners are fired */ 
+.pic1 {
+    background-image: url(images/alaska-clouds-landscape-905.jpg);
+
+}
+
+.pic2 {
+    background-image: url(images/bay-horizon-mountains-1060.jpg);
+
+}
+
+.pic3 {
+    background-image: url(images/beach-blustering-nature-2954.jpg);
+
+}
+
+.pic4 {
+    background-image: url(images/dawn-dusk-fog-1052.jpg);
+
+}
+
+.pic5 {
+    background-image: url(images/evening-forest-landscape-397.jpg);
+
+}
+
+.pic6 {
+    background-image: url(images/forest-lake-landscape-176.jpg);
+
+}
+
+.pic7 {
+    background-image: url(images/galaxy-lights-milky-way-676.jpg);
+
+}
+
+.pic8 {
+    background-image: url(images/lake-landscape-mountains-2855.jpg);
+
+}
+
+.pic9 {
+    background-image: url(images/nature-snow-trees-2385.jpg);
+
+}
+
+/*Classes for texts*/
+
+.cold{
+color: #77698b;
+}
+
+.warm{
+color: #f5c79f; 
+}
