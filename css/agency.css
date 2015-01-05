@@ -10,7 +10,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #333333;
 }
 
 .text-primary {
@@ -272,6 +272,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 
@@ -280,22 +281,34 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    background-color: #000000;
+    opacity: 0.5;   
 }
 
+
 header .intro-text .intro-heading {
+    padding-bottom: 25px;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    background-color: #000000;
+    opacity: 0.5;
+   
 }
+
+
+
 
 @media(min-width:768px) {
     header .intro-text {
@@ -304,7 +317,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        padding-bottom:  -bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
@@ -399,7 +412,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #d4d1ca;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -420,8 +433,8 @@ section h3.section-subheading {
 
 #portfolio{
     background-attachment: scroll;
-    background-image: url(../img/StarWarsStoryboard.jpg);
-    background-position: center bottom;
+    background-image: url(../img/starwars2.jpg);
+    background-position: bottom top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -478,7 +491,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #dadce8;
 }
 
 #joomla .portfolio-item .portfolio-caption h4 {
@@ -580,7 +593,7 @@ section h3.section-subheading {
 #javascript{
     background-attachment: scroll;
     background-image: url(../img/braziljpg.jpg);
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -810,7 +823,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #d3ded6;
 }
 
 
@@ -831,7 +844,7 @@ aside.clients img {
 
 section#contact {
     background-image: url(../img/contact.jpg);
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1054,9 +1067,9 @@ body {
 #about{
     background-attachment: scroll;
     background-image: url(../img/metropolis-poster.jpg);
-    background-position: center 35%;
+    background-position: 60% center;
     background-repeat: none;
-    -webkit-background-size: cover;
+    -webkit-background-size: 
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
