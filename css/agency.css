@@ -418,6 +418,16 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+#portfolio{
+    background-attachment: scroll;
+    background-image: url(../img/StarWarsStoryboard.jpg);
+    background-position: center bottom;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 /* Jommla section */
 
@@ -487,8 +497,16 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+
 #joomla{
-    background-color: #eeeeee;
+    background-attachment: scroll;
+    background-image: url(../img/2001.jpg);
+    background-position: center 35%;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Javascript section */
@@ -559,8 +577,28 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-
+#javascript{
+    background-attachment: scroll;
+    background-image: url(../img/braziljpg.jpg);
+    background-position: center bottom;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* On going section */
+
+#ongoing{
+    background-attachment: scroll;
+    background-image: url(../img/matrix.jpg);
+    background-position: center bottom;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 /* End on going */
 
@@ -792,10 +830,15 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../img/contact.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 }
 
 section#contact .section-heading {
@@ -984,6 +1027,8 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+
+
 ::-moz-selection {
     text-shadow: none;
     background: #fed136;
@@ -1007,8 +1052,6 @@ body {
 }
 
 #about{
-        text-align: center;
-    color: #fff;
     background-attachment: scroll;
     background-image: url(../img/metropolis-poster.jpg);
     background-position: center 35%;
@@ -1018,3 +1061,4 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
