@@ -1096,7 +1096,9 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
-
+.portfolio-modal a{
+text-decoration: underline;
+}
 
 ::-moz-selection {
     text-shadow: none;

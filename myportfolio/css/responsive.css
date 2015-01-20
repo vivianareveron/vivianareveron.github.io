@@ -1,0 +1,114 @@
+/****Tablets****/
+
+@media screen and (min-width: 480px)
+{
+
+.slider {
+display: inline-block;
+background-image: url(../images/wavegrid.png);
+margin: 3em 2em 0 2em;
+}
+
+h5 {
+
+text-align: left;
+padding: 0 0 0 1.2em;
+line-height: 0em;
+}
+      
+}
+
+
+/****Computers****/
+
+@media screen and (min-width: 660px) {
+
+
+/**** header ****/
+
+header {
+    background-color: #88b8b8; 
+    float: left;
+    width: 100%;
+    }
+
+h2 {
+    margin: 0;
+    padding: 0.3em 0 0.1em 1.5em;
+    background-image: none;
+    background-color: #88b8b8;
+    float:left;
+    padding-top: 0.5em;
+    margin:0;
+    
+}
+
+h3{
+
+    padding: 0.1em 0.1em 0em 1.8em;
+    margin: 0;
+    clear: left;
+    float: left;
+}
+
+header nav {
+    
+    float: right;
+    padding: 0 1em 0 0;
+    margin: 0;
+    text-align: right;
+    color: #ffffff;
+    background-color: #88b8b8;
+    font-size: 1.4em;
+}
+ 
+
+header nav li {
+padding: 0 0.5em 0 0.5em;
+font-size: 1.1em;
+
+}
+
+
+/***** Main****/ 
+ 
+.slider {
+    display: inline-block;
+    background-image: url(../images/wavegrid.png);
+    padding: 2em 0 0 0;
+    width: 100%;
+    margin: 3em 2em 0 0;
+}
+  
+
+#    
+
+h5 {
+
+text-align: center;
+padding-bottom: 0.2em;
+margin: 0;
+
+}
+
+
+main ul {
+clear:both;
+padding: 2em 0;
+}
+
+main li {
+    display: inline-block;
+    width: 30%;
+    margin: 0 0.5em;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+
+}    
+
+    
+
+} 
