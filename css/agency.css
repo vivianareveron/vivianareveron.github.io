@@ -634,8 +634,8 @@ section h3.section-subheading {
 
 #ongoing{
     background-attachment: scroll;
-    background-image: url(../img/matrix.jpg);
-    background-position: center bottom;
+    background-image: url(../img/inception.jpg);
+    background-position: top center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -644,7 +644,7 @@ section h3.section-subheading {
 }
 
 #ongoing .row {
-    background-color: rgba(211,222,214,0.7);
+    background-color: rgba(255,255,255,0.8);
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -873,8 +873,8 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin-right: 0;
-    border: 7px solid #d3ded6;
+    margin: auto;
+    border: 7px solid #fff;
 }
 
 
